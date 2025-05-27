@@ -1,4 +1,9 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
 
 
 
@@ -6,7 +11,7 @@ namespace ExerciseCommando
 {
 
 
-	public class Commando
+	 static public class Commando
 	{
 		string Name;
 		string CodeName;
@@ -14,7 +19,7 @@ namespace ExerciseCommando
 		string Status;
 
 
-		public Comando(string name, string codename, string status, string arms[5])
+		public Commando(string name, string codename, string status, string arms[5])
 		{
 			Name = name;
 			CodeName = codename;
